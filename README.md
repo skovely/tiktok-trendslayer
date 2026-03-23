@@ -129,7 +129,7 @@ crontab -e
 
 ## 📌 版本信息
 
-- **版本**: 0.1.6
+- **版本**: 0.1.7
 - **作者**: skovely
 - **更新日期**: 2026-03-23
 - **依赖**: curl, jq, TIKTOK_SHOP_API_KEY, ECHOTIK_TOKEN
