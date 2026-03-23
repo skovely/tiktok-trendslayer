@@ -70,7 +70,11 @@ export ECHOTIK_TOKEN="your_token"
 - `viral_keywords` - 爆火关键词
 - `video_hooks` - 视频 Hook 分析
 
+
  ## 重点监控品类（TikTok Shop ID | EchoTik Code）
+=======
+## 重点监控品类（TikTok Shop ID | EchoTik Code）
+>>>>>>> e25252af74c237b0bfb7738bb462bab9382a9b79
 - 美妆护肤	10001	beauty
 - 3C数码	10002	3c
 - 家居生活	10003	home
