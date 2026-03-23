@@ -52,13 +52,13 @@ export ECHOTIK_TOKEN="your_echotik_token"
 
 ```bash
 # 分析指定品类
-~/.qclaw/workspace/skills/tiktok-trend-slayer/scripts/tiktok_slayer.sh --category beauty
+~/.openclaw/workspace/skills/tiktok-trend-slayer/scripts/tiktok_slayer.sh --category beauty
 
 # 分析所有重点品类（3C、美妆、家居）
-~/.qclaw/workspace/skills/tiktok-trend-slayer/scripts/tiktok_slayer.sh --all
+~/.openclaw/workspace/skills/tiktok-trend-slayer/scripts/tiktok_slayer.sh --all
 
 # 生成 Markdown 报告
-~/.qclaw/workspace/skills/tiktok-trend-slayer/scripts/tiktok_slayer.sh --category beauty --format md
+~/.openclaw/workspace/skills/tiktok-trend-slayer/scripts/tiktok_slayer.sh --category beauty --format md
 ```
 
 ### 3. 设置定时任务
@@ -66,7 +66,7 @@ export ECHOTIK_TOKEN="your_echotik_token"
 ```bash
 # 每天 8:00 自动执行
 crontab -e
-0 8 * * * ~/.qclaw/workspace/skills/tiktok-trend-slayer/scripts/tiktok_slayer.sh --all >> ~/.qclaw/workspace/skills/tiktok-trend-slayer/logs/cron.log 2>&1
+0 8 * * * ~/.openclaw/workspace/skills/tiktok-trend-slayer/scripts/tiktok_slayer.sh --all >> ~/.openclaw/workspace/skills/tiktok-trend-slayer/logs/cron.log 2>&1
 ```
 
 ---
