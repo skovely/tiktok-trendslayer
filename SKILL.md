@@ -1,7 +1,6 @@
 ---
 name: tiktok-trend-slayer
 description: TikTok 选品猎手 - 自动监控 TikTok 商品榜与达人榜，利用 AI 挖掘高增长爆款，生成选品及达人撮合策略。当用户需要 TikTok 选品分析、爆款挖掘、达人匹配、趋势监控时使用此技能。
-tags：TikTokShop,TikTok选品,跨境电商,AI选品助手,爆款预测,3C电子,Ecommerce_Agent
 ---
 
 # TikTok 选品猎手
