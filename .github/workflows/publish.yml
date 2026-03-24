@@ -1,0 +1,26 @@
+name: Publish to Clawhub
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+
+      - name: Install Clawhub
+        run: bunx clawhub
+
+      - name: Publish to Clawhub
+        env:
+          CLAWHUB_TOKEN: ${{ secrets.CLAWHUB_TOKEN }}
+        run: |
+          clawhub publish --tags tiktok,cross-border,ecommerce,trending,analysis
